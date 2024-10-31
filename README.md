@@ -2,6 +2,12 @@
 
 This project is a fullstack artist portfolio that closely resembles the ArtStation grid style showcase. All demo works in this portfolio belong to **Sergey Vasnev**. You can find him on [ArtStation](https://sergey_vasnev.artstation.com/).
 
+Frontend libraries used:
+1. **framer-motion** - A popular library for creating animations and transitions in React applications.
+2. **lucide-react** - A collection of beautiful and customizable icons for React applications.
+3. **axios** - A promise-based HTTP client for making requests to external APIs.
+4. **tailwind** - A utility-first CSS framework for creating custom designs quickly.
+
 It provides all CRUD interactions, and an open static storage link for image files. Images are also removed from that storage when modifications are made to a specific "work" object and when it's completely removed from the database.
 
 Backend CRUD operations are fully covered by tests.
