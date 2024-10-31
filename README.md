@@ -2,6 +2,10 @@
 
 This project is a fullstack portfolio that closely resembles the ArtStation grid style showcase. All demo works in this portfolio belong to **Sergey Vasnev**. You can find him on [ArtStation](https://sergey_vasnev.artstation.com/).
 
+It provides all CRUD interactions, and an open static storage link for image files. Images are also removed from that storage when modifications are made to a specific "work" object and when it's completely removed from the database.
+
+Backend CRUD operations are fully covered.
+
 ## Database Setup
 
 **Requirements:** PostgreSQL
@@ -62,3 +66,16 @@ In the `nestjs-backend` folder, you can run tests to check CRUD functionalities:
 ```sh
 npm run test
 ```
+
+## Preview
+![Admin View](https://github.com/RaduCot/fullstack-portfolio/blob/master/git/home_admin.png)
+
+![Visitor View](https://github.com/RaduCot/fullstack-portfolio/blob/master/git/home_visitor.png)
+
+![Work Details](https://github.com/RaduCot/fullstack-portfolio/blob/master/git/work_details.png)
+
+![Work Details](https://github.com/RaduCot/fullstack-portfolio/blob/master/git/work_details.png)
+
+![Work Add](https://github.com/RaduCot/fullstack-portfolio/blob/master/git/work_add.png)
+
+![Work Edit](https://github.com/RaduCot/fullstack-portfolio/blob/master/git/work_edit.png)
