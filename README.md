@@ -81,7 +81,7 @@ You can navigate to the root directory which contains both `react-frontend` and 
 ```sh
 npm install
 ```
-This will initialize the concurrent run library. Simply running npm start in the root folder will start both servers at the same time.
+This will initialize the concurrent run library. Simply running `npm start` in the root folder will start both servers at the same time.
 
 ## Testing
 
